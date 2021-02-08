@@ -15,9 +15,9 @@ https://github.com/Daedalus007/Flips-daedalus
     Changed dialogue for Shops, Hospital, and Church to be more polite.
     Changed 'God' to 'Goddess'.
     Fixed an NPC mentioning IceDriller to Ice Driller
-    Updated various files to auto-grab the required file and store it (temporarily) within the AppVeyor VM for the purposes of patch creation.
-    After the patch is created then the required file is IMMEDIATELY discarded alongside the VM auto-termination.
-    This is now a fully-automated process whereby the end-user can create their patches without issues and avoiding potential Github copyright issues as well!
+    Updated various repo files to auto-grab required 'file' and temp-store it for patch creation.
+    After patch creation, required file IMMEDIATELY discarded with Appveyor VM auto-termination.
+    This is now a fully-automated process without potential Github copyright issues!
 
 
 
