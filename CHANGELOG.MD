@@ -1,4 +1,8 @@
-v9.2 - Daedalus Edition
+Note:  Formatting is screwy so check 'RAW' version if it doesn't appear properly.
+
+# CHANGELOG
+
+**v9.2 - Daedalus Edition**
 08 Feb 2021
 
 Changed dialogue for Shops, Hospital, and Church to be more polite.
@@ -7,7 +11,7 @@ Fixed an NPC mentioning IceDriller to Ice Driller
 
 
 
-v9.1 - Daedalus Edition
+**v9.1 - Daedalus Edition**
 04 Feb 2021
 
 Changed names of several things as specified below.
