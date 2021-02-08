@@ -1,4 +1,9 @@
 Note:  Formatting is screwy so check 'RAW' version if it doesn't appear properly.
+Also all releases are BPS format and require a BPS patcher such as 'Floating IPS' to use.
+You apply the BPS patch to the original Japanese ROM of Phantasy Star 1.  You must acquire it yourself.
+
+I have a compiled binary of the latest/last release (as of Oct 2020) of 'Floating IPS' over on my other repository.
+https://github.com/Daedalus007/Flips-daedalus
 
 # CHANGELOG
 
