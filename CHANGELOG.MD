@@ -1,5 +1,5 @@
 All releases are both IPS and BPS format!  They require a BPS and/or IPS patcher such as 'Floating IPS' to use.
-You apply the IPS patch to the original Japanese ROM of Phantasy Star 1.
+You apply the patch to the original Japanese ROM of Phantasy Star 1.
 You are responsible for providing your own compatible ROM file!
 
 For the sake of convenience, I have a compiled binary of the latest/last release (as of Oct 2020) of 'Floating IPS' over on my other repository.
