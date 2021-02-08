@@ -36,7 +36,8 @@ It is easy to edit charater names, item names, spell names, and so on.  Anything
 Your ROM must be named: ps1-j.sms
 
 NOTE:  Make sure you have 'Show Hidden Extensions' enabled in Windows.  If you don't know what that is feel free to search online and/or ask a friend who knows computers.
-This ROM upload is temporary.  You MUST delete the ROM after you have completed your build so you don't get smacked with copyright issues by GitHub.
+
+**This ROM upload is temporary.  You MUST delete the ROM after you have completed your build so you don't get smacked with copyright issues by GitHub.**
 
 10 - Now you are ready to build!  Go to https://www.appveyor.com/ and click 'Sign In' in the upper-right corner.  On the Login screen click the Blue 'Github' button on the upper left side.  It may also ask to 'Install' Appveyor as a Github App.  Accept the permissions.
 
@@ -45,5 +46,7 @@ This ROM upload is temporary.  You MUST delete the ROM after you have completed 
 12 - You should be back on the 'Projects' screen now with your build project ready to go!  Finally!  Time to BUILD!  In the upper-right corner you should see a blue button that says 'New Build' so click that and away it goes!  You'll see a bunch of 'Console' output that you can look at while it works (takes about a minute to complete).  If all goes well then you should have your new shiny patch ready to go!  If any errors happened then ask a friend for assistance.
 
 13 - Now to download it.  Where are the patches then?  After a successful build, just click on 'Artifacts' and you will see a downloadable ZIP file with both IPS and BPS patches ready to go!  I recommend using the BPS patches since it makes sure you have the correct ROM.
+
+**Delete the ROM file you uploaded to your repository!  DO NOT FORGET!**
 
 You're done!  Enjoy!
