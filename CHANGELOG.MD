@@ -16,6 +16,7 @@ https://github.com/Daedalus007/Flips-daedalus
     Changed 'Magic Waller' to 'Mighty Wall'.
     These changes are purely personal preference.
     I've updated the main name changes below with all 3 versions; latest is on the rightmost side.
+    Also added IPS patches to releases for greater accessibility.
 
 
 
