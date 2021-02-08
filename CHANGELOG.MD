@@ -9,6 +9,16 @@ https://github.com/Daedalus007/Flips-daedalus
 
 # CHANGELOG
 
+**v9.3 - Daedalus Edition**
+08 Feb 2021
+
+    Changed 'Waller' to 'Basic Wall'.
+    Changed 'Magic Waller' to 'Mighty Wall'.
+    These changes are purely personal preference.
+    I've updated the main name changes below with all 3 versions; latest is on the rightmost side.
+
+
+
 **v9.2 - Daedalus Edition**
 08 Feb 2021
 
@@ -79,11 +89,11 @@ Spells
     Bind = Ensnare
     Bypass = Egress
     Magic Unseal = Magic Unlock
-    Magic Waller = Magic Wall
+    Magic Waller = Magic Wall = Mighty Wall
     Quick Dash = Escape
     Super Heal = Mega Heal
     Transrate = Construe
     Troop = Teleport
     Untrap = Disarm Trap
-    Waller = Protect Wall
+    Waller = Protect Wall = Basic Wall
     Wind = Tornado
