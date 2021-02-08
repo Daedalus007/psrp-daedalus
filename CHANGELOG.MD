@@ -24,7 +24,31 @@ https://github.com/Daedalus007/Flips-daedalus
 **v9.1 - Daedalus Edition**
 04 Feb 2021
 
-Various things have had names changed to my personal preferences as specified below.
+    Various things have had names changed to my personal preferences as specified below.
+    These changes were done to make the game more understandable to me while playing w/o looking at translation notes.
+    
+    I really dislike the name Tylon but that's a very personal nitpick.
+    Perseus Shield is shorter than Shield of Perseus.
+    FlowMover sounds 'Engrish' so changed it back to Hover Craft.
+    IceDecker also sounds 'Engrish' so changed to Ice Driller.
+    Smoke Bomb sounds more ninja/stealthy than Escape Cloth.
+    Master Key makes more sense to me than Miracle Key since no 'miracle' is performed.  It's just a key!
+    Change both PelorieMate and Ruoginin to Mono/Di Mate as a nod to later Phantasy Star games.
+    Flashlight makes more sense to me than Searchlight.
+    TranCarpet sounds 'Engrish' so changed to the more sci-fi Transporter instead.
+    Change Bind to Ensnare also makes more sense to me when 'webbed' by certain enemies.
+    Change Bypass to Egress with a more suitable English meaning and referencing Shining in the Darkness.
+    I prefer Magic Unlock over Magic Unseal with a nod to 'Unlock Magic' from Ultima games.
+    Magic Waller sounds Engrish so shortened to Magic Wall.  I debated on Shell from Final Fantasy but changed mind.
+    Escape is both more succinct and understandable in English to not confuse Quick Dash as a buff.
+    I changed Super Heal to Mega Heal as a personal nitpick.
+    Transrate looks like a typo and it was done on purpose (check translation notes).  Construe does the job better IMHO.
+    Troop is a substandard localization IMHO.  I used Teleport to also match the French version.
+    Untrap is fine but Disarm Trap gives better nods to D&D and RPG vernacular.
+    Waller changed to Protect Wall because Final Fantasy uses 'Protect' against physical damage.
+    Wind is ok but boring.  Tornado sounds like an actual destructive force!
+
+
 
 Character Names
     
