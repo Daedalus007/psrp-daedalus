@@ -16,7 +16,7 @@ banksize $4000
 banks 32
 .endro
 
-.define ORIGINAL_ROM "PS1-J.SMS"
+.define ORIGINAL_ROM "PSJAPA.SMS"
 
 .background ORIGINAL_ROM
 
