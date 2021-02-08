@@ -5,6 +5,8 @@ You apply the BPS patch to the original Japanese ROM of Phantasy Star 1.  You mu
 I have a compiled binary of the latest/last release (as of Oct 2020) of 'Floating IPS' over on my other repository.
 https://github.com/Daedalus007/Flips-daedalus
 
+**Please check BUILDING.MD for important information!**
+
 # CHANGELOG
 
 **v9.2 - Daedalus Edition**
