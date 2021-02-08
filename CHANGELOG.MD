@@ -18,6 +18,8 @@ https://github.com/Daedalus007/Flips-daedalus
     Updated various repo files to auto-grab required 'file' and temp-store it for patch creation.
     After patch creation, required file IMMEDIATELY discarded with Appveyor VM auto-termination.
     This is now a fully-automated process without potential Github copyright issues!
+    Because of how Appveyor works this only works for my repository and Appveyor account, not forks.
+    Updated BUILDING.MD to reflect this change.
 
 
 
