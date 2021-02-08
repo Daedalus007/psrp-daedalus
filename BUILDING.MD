@@ -26,9 +26,9 @@ OPTIONAL -- I would recommend editing titlescreen.en.png (psrp/psrp/new_graphics
 7 - Depending on what you want to do, these are the files you want to edit.  You can use the Github editor but it is far easier to download the files and edit them in a dedicated text editor with find/replace and other features.
 It is easy to edit charater names, item names, spell names, and so on.  Anything beyond that is beyond the scope of this guide.
 
---menus.yaml = Game menus and functionality
---ps1jert.sms.asm = The entire game's assembly code
---script.yaml = The entire game's script
+	menus.yaml = Game menus and functionality
+	ps1jert.sms.asm = The entire game's assembly code
+	script.yaml = The entire game's script
 
 8 - If you edited using the built-in Github editor then just 'Commit' your changes (Green Button) when you are done.  If you downloaded the files then you'll want to delete the originals (trash can icon) from the repository before uploading your replacements.  Make sure you are in the proper path and then use the 'Add File -> Upload Files' functionality to upload the downloaded ones that you edited locally on your computer.
 
