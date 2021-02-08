@@ -1,48 +1,4 @@
-v9.2 - Daedalus Edition
-08 Feb 2021
-
-Changed dialogue for Shops, Hospital, and Church to be more polite.
-Changed 'God' to 'Goddess'.
-Fixed an NPC mentioning IceDriller to Ice Driller
-Added 'BUILDING.md' file to main repository to clarify how to build using Appveyor.
-
-v9.1 - Daedalus Edition
-04 Feb 2021
-
-Fixed 'appveyor.yaml' error due to nonexistant URL.
-Updated title screen per Maxim's request to specify this is a MODDED version based on the SMSPower retranslation.
-Changed names of several things as specified below.
-
--Character Names
-Tylon = Tyron
-
--Armor Name
-Shield of Perseus = Perseus Shield
-
--Vehicles
-FlowMover = Hover Craft
-IceDecker = Ice Driller
-
--Items
-Escape Cloth = Smoke Bomb
-Miracle Key = Master Key
-PelorieMate = MonoMate
-Ruoginin = DiMate
-Searchlight = Flashlight
-TranCarpet = Transporter
-
--Spells
-Bind = Ensnare
-Bypass = Egress
-Magic Unseal = Magic Unlock
-Magic Waller = Magic Wall
-Quick Dash = Escape
-Super Heal = Mega Heal
-Transrate = Construe
-Troop = Teleport
-Untrap = Disarm Trap
-Waller = Protect Wall
-Wind = Tornado
+Please see CHANGELOG.MD for changes done to this repository from the original.
 
 **ORIGINAL README BELOW**
 
