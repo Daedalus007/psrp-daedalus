@@ -29,7 +29,7 @@ All these files are in the 'psrp' folder on the 'Home' directory (the main page 
 
 7 - If you edited using the built-in Github editor then just 'Commit' your changes (Green Button) when you are done.  If you downloaded the files then you'll want to delete the originals (trash can icon) from the repository before uploading your replacements.  Make sure you are in the proper path and then use the 'Add File -> Upload Files' functionality to upload the downloaded ones that you edited locally on your computer.  Delete & replace is safer than just replacing depending on your setup.  I always would rather choose the SAFER option to make 100% certain my new files are being used.
 
-8 - You need to go to the 'home' repository path then click the 'psrp' folder and use the 'Add Files' functionality to upload your SMS (Sega Master Syste) ROM of Phantasy Star 1 Japanese.  Your ROM must be named: ps1-j.sms
+8 - You need to go to the 'home' repository path then click the 'psrp' folder and use the 'Add Files' functionality to upload your SMS (Sega Master System) ROM of Phantasy Star 1 Japanese.  Your ROM must be named: ps1-j.sms
 
 NOTE:  Make sure you have 'Show Hidden Extensions' enabled in Windows.  If you don't know what that is feel free to search online and/or ask a friend who knows computers.
 
