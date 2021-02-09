@@ -9,6 +9,15 @@ https://github.com/Daedalus007/Flips-daedalus
 
 # CHANGELOG
 
+
+
+**v9.4 - Daedalus Edition**
+08 Feb 2021
+
+    Slightly changed dialogue for Pharmacy and Armory shops so that the respective clerks ask a Yes/No question to match the prompts.
+
+
+
 **v9.3 - Daedalus Edition**
 08 Feb 2021
 
