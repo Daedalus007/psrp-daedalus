@@ -7163,7 +7163,7 @@
     THIS IS AN ARMORY.
     DO YOU WANT TO BUY<wait more>
     SOMETHING?<prompt>
-  en: Welcome to the equipment armory! How may I help?<end>
+  en: Welcome to the equipment armory! May I help you?<end>
   fr: Bienvenue à l'armurerie! Besoin d'armes pour votre quête_?<end>
   pt-br: Esta é uma loja de armas. Posso ajudá-lo?<end>
 
@@ -7220,7 +7220,7 @@
     FIRST FOOD SHOP.<wait more>
     WOULD YOU LIKE TO<line>
     BUY SOMETHING?<prompt>
-  en: Welcome to the pharmacy! How may I help?<end>
+  en: Welcome to the pharmacy! May I help you?<end>
   fr: Bienvenue à la pharmacie. Besoin d'aide_?<end>
   pt-br: Esta é uma farmácia. Posso ajudá-lo?<end>
 
@@ -7616,7 +7616,7 @@
   us: |
     DO NOT OFFEND<line>
     LASSIC.<end>
-  en: ‘You should not go against Lord LaShiec.’<wait>
+  en: ‘You should not engage in conflict against Lord LaShiec.’<wait>
   fr: Vous ne devriez pas tenir tête au Seigneur Lassic.<wait>
   pt-br: ‘Você não deve ir contra LaShiec.’<wait>
 
