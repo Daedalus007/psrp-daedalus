@@ -11,6 +11,13 @@ https://github.com/Daedalus007/Flips-daedalus
 
 
 
+**v9.5 - Daedalus Edition**
+08 Feb 2021
+
+    Updated menus.yaml to change 'Stats' to 'Status'.
+
+
+
 **v9.4 - Daedalus Edition**
 08 Feb 2021
 
