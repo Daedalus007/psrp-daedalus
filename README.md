@@ -1,4 +1,6 @@
 Please see CHANGELOG.MD for changes done to this repository from the original.
+These changes were all done by Daedalus007#6878 @ FreshGaming Discord: https://discord.gg/MPGWjgb
+Daedalus Github: https://github.com/Daedalus007/psrp-daedalus
 
 **ORIGINAL README BELOW**
 
