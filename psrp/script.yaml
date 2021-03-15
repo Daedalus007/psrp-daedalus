@@ -3535,7 +3535,7 @@
   us: |
     HELP! LASSIC HAS<line>
     COME TO THIS TOWN!<end>
-  en: The evil hand of Lashiec has extended to this village too! Please, you have to stop him!<wait>
+  en: The evil hand of Lashiec has extended to this village too! Please, you have to kill him!<wait>
   fr: |
     L'aura maléfique de Lassic a également corrompu notre village_!<wait more>
     S'il vous plait, arrêtez-le.<wait>
