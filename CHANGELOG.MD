@@ -15,10 +15,12 @@ https://github.com/Daedalus007/Flips-daedalus
 15 Mar 2021
 
     Manually integrated all commits done by maxim-zhao branch as of 8th March 2021.
-    Changed last name of 'Alisa Landeel' to 'Alisa Landale' as verified by English translations in Phantasy Star 4 and later games like Phantasy Star Online 2.
-    Another script pass to uncensor all acts of 'killing' someone.  Replaced words like 'stop', 'destroy', 'defeat', and so forth with 'kill' and equivalents.
-        Also made 'Shadow Warrior' and Lord LaShiec's dialogue slightly more menacing/cruel/taunting.
-                You can review the commits for specific alteration details.
+    Changed last name of 'Alisa Landeel' to 'Alisa Landale'
+        Verified by English translations in Phantasy Star 4 and later games like Phantasy Star Online 2.
+    Another script pass to uncensor all acts of 'killing' someone.
+        Replaced words like 'stop', 'destroy', 'defeat', and so forth with 'kill' and equivalents.
+            Also made 'Shadow Warrior' and Lord LaShiec's dialogue slightly more menacing/cruel/taunting.
+               You can review the commits for specific alteration details.
     
     
 
