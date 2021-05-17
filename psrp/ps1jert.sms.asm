@@ -16,7 +16,7 @@ banksize $4000
 banks 32
 .endro
 
-.define ORIGINAL_ROM "PSJAPA.SMS"
+.define ORIGINAL_ROM "PS1-J.SMS"
 
 .background ORIGINAL_ROM
 
@@ -222,28 +222,35 @@ _script\@_end:
 ; RAM used by the hack. The original game doesn't venture higher than $de96, we use even less... so it's safe to use this chunk up high (so long as we don't hit $dffc+).
 
 .enum $dfb0 export
-  ; Script decoding
-  STR       dw   ; pointer to WRAM string
-  LEN       db   ; length of substring in WRAM
-  POST_LEN  db   ; post-string hint (ex. <Herb>...)
-  LINE_NUM  db   ; # of lines drawn
-  FLAG      db   ; auto-wait flag
-  ARTICLE   db   ; article category #
-  SUFFIX    db   ; suffix flag
-  HLIMIT    db   ; horizontal chars left
-  VLIMIT    db   ; vertical line limit
-  SCRIPT    dw   ; pointer to script
-  BANK      db   ; bank holding script
-  BARREL    db   ; current Huffman encoding barrel
-  TREE      db   ; current Huffman tree
-  VRAM_PTR  dw   ; VRAM address
-  FULL_STR  dw   ; pointer backup
-  TEMP_STR  .db  ; buffer for strings, shared with following
-  PSGaiden_decomp_buffer    dsb 32 ; buffer for tile decoding
-  HasFM     db   ; copy of FM detection result
-  MusicSelection db ; music test last selected song
+  .union
+    PSGaiden_decomp_buffer    dsb 32 ; buffer for tile decoding
+  .nextu
+    ; Script decoding
+    ; Buffer for item name strings, shared with PSGaiden_decomp_buffer as we don't need both at the same time.
+    ; It is prepended with articles so we need to make sure there is space before it for the longest article 
+    ; (Brazilian Portuguese "de una " = 7) and after it for the longest item name (20)
+    ArticleSpace    dsb 16
+    TEMP_STR        dsb 32
+    STR             dw   ; pointer to WRAM string
+    LEN             db   ; length of substring in WRAM
+    POST_LEN        db   ; post-string hint (ex. <Herb>...)
+    LINE_NUM        db   ; # of lines drawn
+    FLAG            db   ; auto-wait flag
+    ARTICLE         db   ; article category #
+    SUFFIX          db   ; suffix flag
+    HLIMIT          db   ; horizontal chars left
+    VLIMIT          db   ; vertical line limit
+    SCRIPT          dw   ; pointer to script
+    BARREL          db   ; current Huffman encoding barrel
+    TREE            db   ; current Huffman tree
+    VRAM_PTR        dw   ; VRAM address
+    FULL_STR        dw   ; pointer backup
+  .endu
+  HasFM           db   ; copy of FM detection result
+  MusicSelection  db ; music test last selected song
 
   SettingsStart: .db
+  
   MovementSpeedUp db ; non-zero for speedup
   ExpMultiplier  db ; b Experience scaling
   MoneyMultiplier  db ; b Money pickups scaling
@@ -255,6 +262,7 @@ _script\@_end:
 
   Port3EValue db  ; Value left at $c000 by the BIOS
 .ende
+
 
 ; Functions in the original game we make use of
 .define VBlankHandler $0127
@@ -1604,19 +1612,19 @@ Items:
   String "<A> Ceramic Shield"               ; CRC. SLD  Ceramic Shield      seramikkunotate     セラミックノタテ
   String "<An> Animal Glove"                ; GLOVE     Glove               animarugurabu       アニマルグラブ
   String "<A> Laser Barrier"                ; LASR.SLD  Laser Shield        rēzābaria           レーザーバリア
-  String "<The> Perseus Shield"             ; MIRR.SLD  Mirror Shield       peruseusunotate     ペルセウスノタテ
+  String "<The> Shield of Perseus"          ; MIRR.SLD  Mirror Shield       peruseusunotate     ペルセウスノタテ
   String "<A> Laconian Shield"              ; LAC. SLD  Laconian Shield     rakoniashīrudo      ラコニアシールド
 ; vehicles: 21-23
   String "<The> LandMaster"                 ; LANDROVR  Land Rover          randomasutā         ランドマスター
-  String "<The> HoverCraft"                 ; HOVRCRFT  Hovercraft          furōmūbā            フロームーバー
-  String "<The> IceDriller"                 ; ICE DIGR  Ice Digger          aisudekkā           アイスデッカー
+  String "<The> FlowMover"                  ; HOVRCRFT  Hovercraft          furōmūbā            フロームーバー
+  String "<The> IceDecker"                  ; ICE DIGR  Ice Digger          aisudekkā           アイスデッカー
 ; items: 24+
-  String "<A> MonoMate"                     ; COLA      Cola                perorīmeito         ペロリーメイト
-  String "<A> DiMate"                       ; BURGER    Burger              ruoginin            ルオギニン
+  String "<A> PelorieMate"                  ; COLA      Cola                perorīmeito         ペロリーメイト
+  String "<A> Ruoginin"                     ; BURGER    Burger              ruoginin            ルオギニン
   String "<The> Soothe Flute"               ; FLUTE     Flute               sūzufurūto          スーズフルート
-  String "<A> Flashlight"                   ; FLASH     Flash               sāchiraito          サーチライト
-  String "<A> Smoke Bomb"                   ; ESCAPER   Escaper             esukēpukurosu       エスケープクロス
-  String "<A> Transporter"                  ; TRANSER   Transer             torankāpetto        トランカーペット
+  String "<A> Searchlight"                  ; FLASH     Flash               sāchiraito          サーチライト
+  String "<An> Escape Cloth"                ; ESCAPER   Escaper             esukēpukurosu       エスケープクロス
+  String "<A> TranCarpet"                   ; TRANSER   Transer             torankāpetto        トランカーペット
   String "<A> Magic Hat"                    ; MAGC HAT  Magic Hat           majikkuhatto        マジックハット
   String "<An> Alsuline"                    ; ALSULIN   Alsulin             arushurin           アルシュリン
   String "<A> Polymeteral"                  ; POLYMTRL  Polymeteral         porimeterāru        ポリメテラール
@@ -1637,14 +1645,14 @@ Items:
   String "<A> GasClear"                     ; GAS. SLD  Gas Shield          gasukuria           ガスクリア
   String "Damoa's Crystal"                  ; CRYSTAL   Crystal             damoakurisutaru     ダモアクリスタル
   String "<A> Master System"                ; M SYSTEM  Master System       masutāshisutemu     マスターシステム
-  String "<The> Master Key"                 ; MRCL KEY  Miracle Key         mirakurukī          ミラクルキー
+  String "<The> Miracle Key"                ; MRCL KEY  Miracle Key         mirakurukī          ミラクルキー
   String "Zillion"                          ; ZILLION   Zillion             jirion              ジリオン
   String "<A> Secret Thing"                 ; SECRET    Secret              himitsunomono       ヒミツノモノ
 
 Names:
   String "Alisa"                            ; ALIS      Alis                arisa               アリサ
   String "Myau"                             ; MYAU      Myau                myau                ミャウ
-  String "Tyron"                            ; ODIN      Odin                tairon              タイロン
+  String "Tylon"                            ; ODIN      Odin                tairon              タイロン
   String "Lutz"                             ; LUTZ      Lutz                rutsu               ルツ
 
 Enemies:
@@ -1802,7 +1810,7 @@ Names:
 ; Persos
   String "<d'>Alisa"
   String "<de> Myau"
-  String "<de> Tyron"
+  String "<de> Tylon"
   String "<de> Lutz"
 Enemies:
 ; Monstres
@@ -1928,8 +1936,8 @@ Items:
   String   "<o> Aerobarco"
   String   "<o> Escavador de Gelo"
 ; objetos       123456789012345678
-  String "<uma> MonoMate"
-  String "<uma> DiMate"
+  String "<uma> PelorieMate"
+  String "<uma> Ruoginina"
   String   "<a> Flauta Calmante"
   String "<uma> Lanterna"
   String "<uma> Capa de Fuga"
@@ -1961,7 +1969,7 @@ Names:
 ; Personagens
   String "Alisa"
   String "Myau"
-  String "Tyron"
+  String "Tylon"
   String "Lutz"
 Enemies:
 ; Monstros
@@ -2134,11 +2142,11 @@ DrawSpellsMenu:
   ; Now we want to compute b = row count, c = column count  * 2
   inc b
   ld c,SpellMenuBottom_width*2
-  call OutputTilemapBoxWipePaging           ; 0035C1 CD 81 3B
+  call OutputTilemapBoxWipePaging
 
   ; Then we draw the bottom row directly after it
   ld hl,SpellMenuBottom
-  ld bc,1<<8 + SpellMenuBottom_width*2  ; width of line
+  ld bc,(1<<8) + SpellMenuBottom_width*2  ; width of line
   jp OutputTilemapBoxWipePaging ; draw and exit
 _magicmenutable:
 .dw BattleSpellsAlisa, BattleSpellsMyau, BattleSpellsLutz
@@ -2619,11 +2627,11 @@ DezorianCustomStringCheck:
 ;     * Magic list -> heal
 ;       * Player select 2
 ;         * Narrative: player healed (no scroll)
-; 6. Chest -> Disarm Trap
+; 6. Chest -> Untrap
 ; * Party stats
 ; * Menu -> Magic
 ;   * Player select
-;     * Magic list -> Disarm Trap
+;     * Magic list -> untrap
 ;       * Narrative: no trap, contained mesetas + item (scrolls)
 ; 7. Battle -> telepathy
 ; * Party stats
@@ -2957,7 +2965,7 @@ StatsBorderBottom:  .stringmap tilemap "╘════════════�
 
 statsImpl:
   ld hl,StatsBorderTop
-  ld bc,1<<8 + _sizeof_StatsBorderTop ; size
+  ld bc,(1<<8) + _sizeof_StatsBorderTop ; size
   call OutputTilemapBoxWipePaging ; draw to tilemap
   ld hl,Level
   ld a,(ix+5)
@@ -2980,7 +2988,7 @@ statsImpl:
   call DrawTextAndNumberA
   call DrawMeseta
   ld hl,StatsBorderBottom
-  ld bc,1<<8 + _sizeof_StatsBorderTop ; size
+  ld bc,(1<<8) + _sizeof_StatsBorderTop ; size
   jp OutputTilemapBoxWipePaging ; draw and exit
 .ends
 
@@ -4947,7 +4955,6 @@ _musicReturn:
   or a
   jr z,-
   ; Enable the right chip
-foo:
   ld a,(Port3EValue)
   or $04 ; Disable IO chip
   out (PORT_MEMORY_CONTROL),a
@@ -5034,14 +5041,28 @@ CopySettings:
 .ends
 .section "Setting SRAM helper 2" free
 SettingsFromSRAM:
+  ; We first check if SRAM is working
+  ld hl,$8000 ; SRAM marker
+  ld de,$0962 ; Expected value
+  ld bc,$0040 ; length
+  ld a,SRAMPagingOn
+  ld (PAGING_SRAM),a
+-:ld a,(de)
+  inc de
+  cpi
+  jr nz,+ ; Skip copying if SRAM is bad
+  jp pe,- ; parity odd indicates underflow of bc
+
   ld hl,$8210
   ld de,SettingsStart
   call CopySettings
-  ; If they were blank, we need to initialise the multipliers
+  
+  ; If they are not valid, we need to initialise the multipliers
   ld a,(ExpMultiplier)
   or a
   ret nz
-  inc a
++:
+  ld a,1
   ld (ExpMultiplier),a
   ld (MoneyMultiplier),a
   ret
@@ -5065,7 +5086,7 @@ FMDetectionHook:
 DrawTilemap:
   ld a,(PAGING_SLOT_2)
   push af
-    call OutputTilemapBoxWipePaging ; OutputTilemapBoxWipePaging
+    call OutputTilemapBoxWipePaging
   pop af
   ld (PAGING_SLOT_2),a
   ret
