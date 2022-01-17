@@ -2,7 +2,7 @@ version: 1.0.{build}
 image: Visual Studio 2019
 environment:
   URL:
-    secure: cJUFr2NsBjDh6gZxnshL2HMwKuFcjj4JxyfYgTAwY4EaegRkArES3eXzLKOPnUNL3WZddVReEfJCXN81s0sLBA==
+    secure: f4DzuARrHNBCCfE+ps9Y5iPSbaIn5S7PLkz6ATiLSYnYUea+L/ddEmuPLLJ/i1Re
 build_script:
 - cmd: |
     appveyor DownloadFile https://github.com/maxim-zhao/sms-build-tools/releases/download/1.0.102/tools.7z
