@@ -12,7 +12,7 @@ BMP2TILE = bmp2tile.exe
 PY = "py"
 
 # The original PSJ ROM
-PSJ = ps1-j.sms
+PSJ = psjapa.sms
 
 # The language data to use
 LANGUAGE = en
