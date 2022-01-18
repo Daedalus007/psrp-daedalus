@@ -43,6 +43,7 @@ Items
     Escape Cloth = Smoke Bomb
     Miracle Key = Master Key
     PelorieMate = MonoMate
+    Polymeteral = Polymetryl
     Ruoginin = DiMate
     Searchlight = Flashlight
     TranCarpet = Transporter
@@ -71,6 +72,7 @@ What Changed and Why?
     Change both PelorieMate and Ruoginin to Mono/Di Mate as a nod to later Phantasy Star games.
     Flashlight makes more sense to me than Searchlight.
     TranCarpet sounds 'Engrish' so changed to the more sci-fi Transporter instead.
+    Polymeteral spelling changed to Polymetryl to match Phantasy Star Generations 2 and later.
     Change Bind to Ensnare also makes more sense to me when 'webbed' by certain enemies.
     Change Bypass to Egress with a more suitable English meaning and referencing Shining in the Darkness.
     I prefer Magic Unlock over Magic Unseal with a nod to 'Unlock Magic' from Ultima games.
