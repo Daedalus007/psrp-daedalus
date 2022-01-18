@@ -2906,14 +2906,14 @@
   ja: |
     ポリメテラール トイウ クスリハ<wait more>
     ラコニア イガイノ ブッシツハ<line>
-  translated: There’s this chemical called ‘Polymeteral’ that they say will dissolve any material except laconia.
+  translated: There’s this chemical called ‘Polymetryl’ that they say will dissolve any material except laconia.
   us: |
-    POLYMETERAL WILL<line>
+    POLYMETRYL WILL<line>
     DISSOLVE ALL<wait more>
     MATERIALS EXCEPT<line>
     FOR LACONIA.<end>
   en: |
-    A chemical called Polymeteral will dissolve any material!<wait more>
+    A chemical called Polymetryl will dissolve any material!<wait more>
     ...well, anything except Laconia, of course.<wait>
   fr: |
     Un produit appelé Polymatériau peut tout dissoudre_!<wait more>
@@ -2922,7 +2922,7 @@
     A substância química chamada Polimaterial vai dissolver qualquer material!<wait more>
     ...bem, qualquer coisa, exceto Lacônia, é claro.<wait>
   ca: |
-    Hi ha un element químic anomenat Polymeteral que dissol qualsevol material!<wait more>
+    Hi ha un element químic anomenat Polymetryl que dissol qualsevol material!<wait more>
     ...bé, qualsevol menys la Laconia, per suposat.<wait>
 
 - offsets: 54f0
@@ -3659,16 +3659,16 @@
   # Villager (in the cave next to Bartevo)
   indices: 10A
   ja: アビオンノ ムラニ ポリメテラール<line>
-  translated: The drug store in Abion sells Polymeteral, I hear.
+  translated: The drug store in Abion sells Polymetryl, I hear.
   us: |
-    POLYMETERAL IS FOR<line>
+    POLYMETRYL IS FOR<line>
     SALE IN ABION.<end>
-  en: The drug store in Avion Village sells Polymeteral.<wait>
+  en: The drug store in Avion Village sells Polymetryl.<wait>
   fr: |
     J'ai entendu dire qu'on trouvait un produit appelé Polymatériau<wait more>
     dans la cité d'Abion.<wait>
   pt-br: A farmácia na Vila Avion vende o Polimaterial.<wait>
-  ca: A la farmàcia de la vila d'Avion venen Polymeteral.<wait>
+  ca: A la farmàcia de la vila d'Avion venen Polymetryl.<wait>
 
 - offsets: 57bd
   # Hapsby
