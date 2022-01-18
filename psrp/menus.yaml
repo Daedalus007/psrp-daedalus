@@ -74,7 +74,7 @@
     ╘════╝
   en: |
     ┌──────╖
-    │Stats ║
+    │Status║
     │Magic ║
     │Items ║
     │Search║
@@ -208,7 +208,7 @@
     │Magic ║
     │Items ║
     │Talk  ║
-    │Run   ║
+    │Flee  ║
     ╘══════╝
   fr: |
     ┌──────╖
@@ -399,19 +399,19 @@
     │------║
   en: |
     ┌──────╖
-    │Tylon ║
+    │Tyron ║
     │------║
   fr: |
     ┌──────╖
-    │Tylon ║
+    │Tyron ║
     │------║
   pt-br: |
     ┌──────╖
-    │Tylon ║
+    │Tyron ║
     │------║
   ca: |
     ┌──────╖
-    │Tylon ║
+    │Tyron ║
     │------║
 
 - name: LutzBox
@@ -461,25 +461,25 @@
     ┌─────╖
     │Alisa║
     │Myau ║
-    │Tylon║
+    │Tyron║
     │Lutz ║
   fr: |
     ┌─────╖
     │Alisa║
     │Myau ║
-    │Tylon║
+    │Tyron║
     │Lutz ║
   pt-br: |
     ┌─────╖
     │Alisa║
     │Myau ║
-    │Tylon║
+    │Tyron║
     │Lutz ║
   ca: |
     ┌─────╖
     │Alisa║
     │Myau ║
-    │Tylon║
+    │Tyron║
     │Lutz ║
 
 
@@ -608,19 +608,19 @@
 - name: TaironActiveBox
   en: |
     ┌─────╖
-    │Tylon║
+    │Tyron║
     ╘═════╝
   fr: |
     ┌─────╖
-    │Tylon║
+    │Tyron║
     ╘═════╝
   pt-br: |
     ┌─────╖
-    │Tylon║
+    │Tyron║
     ╘═════╝
   ca: |
     ┌─────╖
-    │Tylon║
+    │Tyron║
     ╘═════╝
 
 - name: LutzActiveBox
@@ -662,10 +662,10 @@
   en: |
     ┌────────────╖
     │Heal        ║
-    │Quick Dash  ║
-    │Transrate   ║
-    │Fire        ║
-    │Bind        ║
+    │Escape      ║
+    │Construe    ║
+    │Flame       ║
+    │Ensnare     ║
   fr: |
     ┌────────────────╖
     │Soins           ║
@@ -704,9 +704,9 @@
     │HELP║
   en: |
     ┌────────────╖
-    │Super Heal  ║
+    │Mega Heal   ║
     │Terror      ║
-    │Waller      ║
+    │Basic Wall  ║
     │Power Boost ║
   fr: |
     ┌────────────────╖
@@ -744,10 +744,10 @@
     │THUN║
   en: |
     ┌────────────╖
-    │Fire        ║
+    │Flame       ║
     │Telepathy   ║
-    │Wind        ║
-    │Magic Waller║
+    │Tornado     ║
+    │Mighty Wall ║
     │Thunder     ║
   fr: |
     ┌────────────────╖
@@ -783,7 +783,7 @@
   en: |
     ┌────────────╖
     │Heal        ║
-    │Troop       ║
+    │Teleport    ║
   fr: |
     ┌────────────────╖
     │Soins           ║
@@ -810,9 +810,9 @@
     │EXIT║
   en: |
     ┌────────────╖
-    │Super Heal  ║
-    │Untrap      ║
-    │Bypass      ║
+    │Mega Heal   ║
+    │Disarm Trap ║
+    │Egress      ║
   fr: |
     ┌────────────────╖
     │Super Soins     ║
@@ -846,10 +846,10 @@
     │RISE║
   en: |
     ┌────────────╖
-    │Super Heal  ║
-    │Bypass      ║
+    │Mega Heal   ║
+    │Egress      ║
     │Telepathy   ║
-    │Magic Unseal║
+    │Magic Unlock║
     │Rebirth     ║
   fr: |
     ┌────────────────╖
@@ -1380,4 +1380,3 @@
     │Carregar║
     │Esborrar║
     ╘════════╝
-
