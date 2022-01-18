@@ -53,10 +53,10 @@
 # <item> = item name
 #
 # <line> = line break (should be used sparingly)
-#<wait> = wait, end of entry
-#<end> = end of entry
+# <wait> = wait, end of entry
+# <end> = end of entry
 # <wait more> = wait, not end of entry
-#<delay> = delay a bit
+# <delay> = delay a bit
 #
 
 # ********************
@@ -197,14 +197,14 @@
     Somehow, it all traces back to him.<wait more>
     I tried to learn how, but I guess I got too close to the truth.<line><line>
     There's only one option left now, for all of us.<wait more>
-    Lord LaShiec must be stopped.<line><line>
+    Lord LaShiec must be killed.<line><line>
     If he isn't, the darkness he's aligned himself with will claim all of Algol.<wait more>
     My mistake was trying to take him on alone.<line><line>
     These are dangerous people, you’re going to need help.<wait more>
-    I’ve heard tales of a warrior, a man named Tylon, who could be an ally.<line><line>
+    I’ve heard tales of a warrior, a man named Tyron, who could be an ally.<line><line>
     I tried to enlist his help, but he's gone missing.<wait more>
     You have to find him, Alisa.<line><line>
-    Find Tylon, and defeat LaShiec. Together, you can bring peace back to Algol.<wait more>
+    Find Tyron, and kill LaShiec. Together, you can bring peace back to Algol.<wait more>
     Alisa... such a terrible burden. I’m so sorry.<line><line>
     Please forgive me, for asking this of you...<wait more>
     ...and for leaving you all...<line><line>
@@ -218,7 +218,7 @@
     Pour le bien de tous, Alisa, tu dois l'arrêter.<wait more>
     Mon erreur fut de l'affronter seul.<line><line>
     Ces gens sont dangereux, il te faudra de l'aide.<wait more>
-    On m'a parlé d'un guerrier, un homme nommé Tylon, qui partage ma cause.<wait more>
+    On m'a parlé d'un guerrier, un homme nommé Tyron, qui partage ma cause.<wait more>
     J'ai voulu lui demander son aide, mais personne ne sait ce qu'il est devenu.<wait more>
     Alisa, retrouve-le et tue Lassic avant qu'il ne soit trop tard_!<wait more>
     C'est un terrible fardeau.<line>
@@ -239,9 +239,9 @@
     Se não for, as trevas nas quais ele se alinhou tomarão toda Algol.<wait more>
     Meu erro foi tentar pegá-lo sozinho.<line><line>
     Estas pessoas são perigosas, você vai precisar de ajuda.<wait more>
-    Ouvi histórias de um guerreiro chamado Tylon, que poderia ser um aliado.<line><line>
+    Ouvi histórias de um guerreiro chamado Tyron, que poderia ser um aliado.<line><line>
     Queria contar com sua ajuda, mas ele está desaparecido.<wait more>
-    Alisa, você precisa encontrar Tylon.<line><line>
+    Alisa, você precisa encontrar Tyron.<line><line>
     Juntos vocês podem derrotar LaShiec e trazer a paz de volta a Algol.<wait more>
     Alisa... um fardo tão terrível. Me desculpe.<line><line>
     Por favor, me perdoe, por pedir isso de você...<wait more>
@@ -260,10 +260,10 @@
     Si no ho aconseguim, la foscor amb la qual s'ha aliat s'apoderarà d'Algol.<wait more>
     El meu error ha estat fer-ho tot sol.<line><line>
     Són perillosos, necessitaràs ajuda.<wait more>
-    He sentit a parlar d'un guerrer, un home anomenat Tylon, podria ser un aliat.<line><line>
+    He sentit a parlar d'un guerrer, un home anomenat Tyron, podria ser un aliat.<line><line>
     Vaig voler unir-lo a la causa, però ha desaparegut.<wait more>
     L'has de trobar, Alisa<line><line>
-    Troba en Tylon i enderroca en Lashiec. Junts podreu portar la pau una altra vegada a Algol.<wait more>
+    Troba en Tyron i enderroca en Lashiec. Junts podreu portar la pau una altra vegada a Algol.<wait more>
     Alisa... un pes tan gran. Ho sento tant.<line><line>
     Si us plau perdona'm, per demanar-te això...<wait more>
     ...i per deixar-te tota...<line><line>
@@ -464,19 +464,19 @@
   en: |
     My name is Nekise.<line><line>
     I was sorry to hear about your loss.<wait more>
-    Nero asked me to help him find a warrior named Tylon, are you looking for him too?<wait more>
+    Nero asked me to help him find a warrior named Tyron, are you looking for him too?<wait more>
     The last I heard, he was staying in a town called Shion. Maybe he's still near there.<wait more>
     Your brother also asked me to keep this Laconian Pot safe for him.<wait more>
     It's pretty valuable, maybe it will help you on your journey? Here, please take it.<wait>
   fr: |
     Je suis Nékisée, mes sincères condoléances pour ton frère.<wait more>
-    Nous avons entendu dire que Tylon se trouvait à Scion.<wait more>
+    Nous avons entendu dire que Tyron se trouvait à Scion.<wait more>
     Néro m'avait demandé de garder ce vase Laconian.<wait more>
     Il aurait voulu que tu l'aies. Tiens, prends-le.<wait>
   pt-br: |
     Meu nome é Nekise.<line><line>
     Fiquei triste ao saber de sua perda.<wait more>
-    Nero me pediu para ajudá-la a encontrar um guerreiro chamado Tylon, você também está procurando por ele?<wait more>
+    Nero me pediu para ajudá-la a encontrar um guerreiro chamado Tyron, você também está procurando por ele?<wait more>
     A última vez que ouvi, ele estava hospedado em uma cidade chamada Shion. Talvez ele ainda esteja por perto.<wait more>
     Seu irmão também me pediu para manter este Pote de Lacônia seguro.<wait more>
     Ele é muito valioso, talvez seja útil em sua jornada. Aqui, pode pegar.<wait>
@@ -484,7 +484,7 @@
   ca: |
     Em diuen Nekise.<line><line>
     T'acompanyo en el sentiment.<wait more>
-    En Nero em va demanar ajuda per trobar un guerrer anomenat Tylon, l'estàs buscant tu també?<wait more>
+    En Nero em va demanar ajuda per trobar un guerrer anomenat Tyron, l'estàs buscant tu també?<wait more>
     L'últim que se'n sap és que s'allotjava al poble de Shion. Potser encara s'hi troba pels voltants.<wait more>
     El teu germà també em va demanar que li guardés aquesta olla de Laconia.<wait more>
     Es força valuosa, potser et serà útil en el teu viatge? Si us plau, agafa-la.<wait>
@@ -749,7 +749,7 @@
   translated: I see. Never mind.
   us: O.K. GOOD DAY.<end>
   en: Oh. Okay.<wait>
-  fr: Oh. Très bien.<wait>e
+  fr: Oh. Très bien.<wait>
   pt-br: Ah. Ok.<wait>
   ca: Oh. D'acord.<wait>
 
@@ -936,20 +936,20 @@
     I DON'T KNOW WHAT<line>
     THAT IS FOR.<end>
   en: |
-    Yeah, Tylon was here. He said he was heading south to slay Medusa. I haven't seen him since.<wait more>
+    Yeah, Tyron was here. He said he was heading south to slay Medusa. I haven't seen him since.<wait more>
     He wasn't alone though, he was traveling with a talking animal! I couldn't believe it!<wait more>
     It had a bottle of important-looking medicine on its neck. I wonder what it's for?<wait>
   fr: |
-    Oui, Tylon est passé ici.<wait more>
+    Oui, Tyron est passé ici.<wait more>
     Il disait aller vers le sud pour tuer Médusa.<wait more>
     Un animal parlant avec une fiole autour du cou l'accompagnait_!<wait more>
     Je me demande ce que c'était_?<wait>
   pt-br: |
-    Sim, Tylon estava aqui. Ele disse que estava indo para o sul para matar Medusa. Eu não o vi desde então.<wait more>
+    Sim, Tyron estava aqui. Ele disse que estava indo para o sul para matar Medusa. Eu não o vi desde então.<wait more>
     Ele não estava sozinho, ele estava viajando com um animal falante! Eu não pude acreditar!<wait more>
     Ele tinha um frasco de remédio de aparência importante em seu pescoço. Eu me pergunto para o que serve?<wait>
   ca: |
-    Si, en Tylon va passar per aquí. Es dirigía al sud per a derrotar a Medusa. No l'he tornat a veure desde aleshores.<wait more>
+    Si, en Tyron va passar per aquí. Es dirigía al sud per a derrotar a Medusa. No l'he tornat a veure desde aleshores.<wait more>
     No anava sol per això, anava amb un animal que parlava! No m'ho podia creure! <wait more>
     Portava un flascó amb algun tipus de remei al coll. Em pregunto per què deuria servir?<wait>
 
@@ -965,7 +965,7 @@
     GOING TO TRY<wait more>
     TO KILL LASSIC.<line>
     BEST OF LUCK!<end>
-  en: It’s about time someone took on LaShiec. God be with you.<wait>
+  en: It’s about time someone took on LaShiec. Blessings of the Goddess be with you.<wait>
   fr: |
     Il est temps que quelqu'un s'en prenne à Lassic.<wait more>
     Que Dieu vous protège.<wait>
@@ -1744,19 +1744,19 @@
     EVER HEARD OF A<line>
     MAN NAMED ODIN?<end>
   en: |
-    Hello, Myau. I’m looking for a man named Tylon.<wait more>
+    Hello, Myau. I’m looking for a man named Tyron.<wait more>
     Rumor has it he was traveling with a talking animal.<line><line>
     I don’t suppose that was you?<wait>
   fr: |
-    Bonjour, Myau. Je suis à la recherche d'un homme nommé Tylon.<wait more>
+    Bonjour, Myau. Je suis à la recherche d'un homme nommé Tyron.<wait more>
     La rumeur veut qu'il voyage avec un animal parlant.
     Serait-ce toi_?<wait>
   pt-br: |
-    Olá, Myau. Estou procurando um homem chamado Tylon.<wait more>
+    Olá, Myau. Estou procurando um homem chamado Tyron.<wait more>
     Há rumores de que ele estava viajando com um animal falante.<line><line>
     Poderia ser você?<wait>
   ca: |
-    Hola, Myau. Estic buscant un home anomenat Tylon.<wait more>
+    Hola, Myau. Estic buscant un home anomenat Tyron.<wait more>
     Deien que viatjava amb un animal que parlava.<line><line>
     Potser ets tu?<wait>
 
@@ -1777,17 +1777,17 @@
     O.K., BUT I CANNOT<line>
     OPEN THE BOTTLE.<end>
   en: |
-    Tylon got turned to stone trying to slay Medusa!<line><line>
+    Tyron got turned to stone trying to slay Medusa!<line><line>
     We can heal him with this medicine, but I can’t open the lid...<wait>
   fr: |
-    Tylon a été transformé en pierre en essayant de tuer Médusa_!<wait more>
+    Tyron a été transformé en pierre en essayant de tuer Médusa_!<wait more>
     Nous pouvons le guérir avec cet élixir, mais je n'arrive pas à en retirer le bouchon.<wait more>
-    Tylon doit toujours être à Scion, sais-tu comment y aller_?<wait>
+    Tyron doit toujours être à Scion, sais-tu comment y aller_?<wait>
   pt-br: |
-    Tylon foi transformado em pedra tentando matar Medusa!<line><line>
+    Tyron foi transformado em pedra tentando matar Medusa!<line><line>
     Nós podemos curá-lo com este medicamento, mas não consigo abrir a tampa...<wait>
   ca: |
-    En Tylon va ser convertit en pedra quan intentava derrotar a Medusa!<line><line>
+    En Tyron va ser convertit en pedra quan intentava derrotar a Medusa!<line><line>
     El podem curar amb aquest remei, però no puc obrir el tap...<wait>
 
 - offsets: 466f
@@ -1845,7 +1845,7 @@
   en: Something turned this person into stone! Maybe he can be returned to normal...<wait>
   fr: |
     On dirait que cette personne a été changée en pierre.<wait more>
-    Serait-ce Tylon_?<wait>
+    Serait-ce Tyron_?<wait>
   pt-br: Algo transformou essa pessoa em pedra! Talvez ele possa voltar ao normal...<wait>
   ca: Quelcom ha transformat aquesta persona en pedra! Potser la podem tornar a la normalitat...<wait>
 
@@ -1873,7 +1873,7 @@
     Està funcionant!<delay>
 
 # ********************************
-# *** Character Intro - Tylon ***
+# *** Character Intro - Tyron ***
 # ********************************
 
 - width: 29
@@ -1899,7 +1899,7 @@
   en: |
     Ah, Myau, you found help. Thank you.<line><line>
     I don't know if it will do any good though.<wait more>
-    If we couldn't defeat Medusa, we don’t stand a chance against LaShiec.<line><line>
+    If we couldn't kill Medusa, we don’t stand a chance against LaShiec.<line><line>
     Who’s your new friend?<wait>
   fr: |
     Ah, Myau, tu as trouvé de l'aide.  Merci.<wait more>
@@ -1933,7 +1933,7 @@
     TO SEEK YOUR HELP.<end>
   en: |
     My brother Nero was killed trying to overthrow LaShiec.<wait more>
-    I'm going to destroy him, no matter what it takes.<line><line>
+    I'm going to kill that heartless bastard, no matter what it takes!<line><line>
     Nero gave me your name just before he died, and said that you might help me.<wait>
   fr: |
     Je m'appelle Alisa. Mon frère Néro a été tué en tentant d'arrêter Lassic.
@@ -1963,7 +1963,7 @@
     YOUR BROTHER DIE<line>
     UNAVENGED.<end>
   en: |
-    I see. Well then, for Nero's sake, let's team up!<line><line>
+    I see. Well then, for Nero's sake, let's team up and avenge him!<line><line>
     There's always room for one more, right Myau?<wait>
   fr: |
     Je vois.<wait more>
@@ -2369,7 +2369,7 @@
     I know why you are here. You’ve certainly made no secret of it. You're going to kill LaShiec.<wait more>
     LaShiec is a powerful man. No, more than a man. He’s beyond those constraints now.<wait more>
     You’re very brave to take him on. But bravery, I fear, will not be enough.<wait more>
-    Go. Destroy him. I won’t stop you. In fact, I will offer you assistance.<wait more>
+    Go. Execute him. I won’t stop you. In fact, I will offer you assistance.<wait more>
     A powerful Esper named Lutz lives in Mahal cave, north of here. Take this letter to him.<wait more>
     With his help, I have faith that you will succeed. Come back here when you have.<wait>
   fr: |
@@ -2415,7 +2415,7 @@
     YOU WILL KILL<wait more>
     LASSIC AND RETURN<line>
     HERE EVENTUALLY.<end>
-  en: Return here when you have defeated LaShiec. God be with you.<wait>
+  en: Return here when you have killed LaShiec. Blessings of the Goddess be with you.<wait>
   fr: Revenez ici quand vous aurez vaincu Lassic. Que Dieu vous garde.<wait>
   pt-br: Volte aqui quando você derrotar LaShiec. Que Deus esteja com você.<wait>
   ca: Torneu aquí un cop hàgiu derrotat en Lashiec. Déu vos guard.<wait>
@@ -2697,15 +2697,15 @@
   us: |
     COULD YA SPARE ME<line>
     A CUP OF COLA?<prompt>
-  en: I could really use a PelorieMate. Can you spare one?<end>
+  en: I could really use a MonoMate. Can you spare one?<end>
   fr: |
     J'aurais vraiment besoin d'une Vitabarre.<wait more>
     Vous n'en n'auriez pas une_?<end>
-  pt-br: Gostaria de comer uma PelorieMate. Você pode me dar uma?<end>
+  pt-br: Gostaria de comer uma MonoMate. Você pode me dar uma?<end>
   ca: M'aniria bé un PelorieMate. No me'n donaries un?<end>
 
 - offsets: 5028
-  # Villager (yes to previous question, and you have a PelorieMate)
+  # Villager (yes to previous question, and you have a MonoMate)
   indices: 0BC,0BE,0C0
   ja: |
     アリガトウ.ココハ ムカシ ルベノ<line>
@@ -2743,7 +2743,7 @@
     El tenen presoner a Triada, una presó al sud d'aquí.<wait>
 
 - offsets: 502e,5055,535b
-  # Villager (yes to previous question, and you don't have a PelorieMate)
+  # Villager (yes to previous question, and you don't have a MonoMate)
   indices: 20E
   ja: バカニスンデネエ.<wait>
   translated: Don’t f--- with me!
@@ -2767,7 +2767,7 @@
   ca: Aleshores no tinc res que conversar amb vosaltres. Adéu.<wait>
 
 - offsets: 504f
-  # Another villager (yes to previous question, and you have a PelorieMate)
+  # Another villager (yes to previous question, and you have a MonoMate)
   indices: 0C4,0C6,0C8
   ja: |
     ガシコノモリカラ ヤマヘ ツウジル<line>
@@ -2868,7 +2868,7 @@
   ca: Intrús detectat. Iniciant seqüència de terminació.<wait>
 
 - offsets: 54c4
-  # Prisoner (if you give PelorieMate)
+  # Prisoner (if you give MonoMate)
   indices: 0EA
   ja: クモノ カイブツハ ホントウハ<line>
   translated: Thanks. Y’know, no matter what people say, spiders are actually very wise creatures.
@@ -3700,14 +3700,14 @@
   ja: |
     フロームーバーヲ ミツケタ.<wait more>
     ツカエルヨウニ ナッタゾ.<wait>
-  translated: You found the ‘FlowMover’! Hapsby fixed the areas that were damaged, so you can use it now!
+  translated: You found the ‘HoverCraft’! Hapsby fixed the areas that were damaged, so you can use it now!
   us: |
     YOU FOUND THE <line>
     HOVERCRAFT.Hapsby<wait more>
     HAS RESTORED IT TO<line>
     WORKING ORDER.<end>
   en: |
-    You found a FlowMover.<wait more>
+    You found a HoverCraft.<wait more>
     Hapsby fixed the parts that were broken, so you can use it now!<wait>
   fr: |
     Vous avez trouvé un AquaNaute.<wait more>
@@ -3851,7 +3851,7 @@
     A CERTAIN<wait more>
     CRYSTAL WILL BLOCK<line>
     EVIL MAGIC.<end>
-  en: You're going to bring down LaShiec? It's about time someone did!<wait>
+  en: You're going to kill LaShiec? It's about time someone did!<wait>
   fr: |
     Il serait temps que quelqu'un se dresse contre cette brute.<wait more>
     Bonne chance.<wait>
@@ -3870,7 +3870,7 @@
     CRYSTAL WILL BLOCK<line>
     EVIL MAGIC.<end>
   en: |
-    LaShiec’s no pushover. His black magic could destroy you.<wait more>
+    LaShiec’s no pushover. His black magic could kill you.<wait more>
     I’ve heard certain crystals can protect you against such magic.<wait more>
     It’s just a rumor, though. Don’t quote me on that.<wait>
   fr: |
@@ -3911,7 +3911,7 @@
   us: |
     HELP! LASSIC HAS<line>
     COME TO THIS TOWN!<end>
-  en: The evil hand of Lashiec has extended to this village too! Please, you have to stop him!<wait>
+  en: The evil hand of Lashiec has extended to this village too! Please, you have to kill him!<wait>
   fr: |
     L'aura maléfique de Lassic a également corrompu notre village_!<wait more>
     S'il vous plait, arrêtez-le.<wait>
@@ -3990,7 +3990,7 @@
     Notre nouveau voisin en connaît beaucoup sur les animaux.<wait more>
     Il m'a raconté une chose bien étrange à propos des chats Musk.<wait more>
     Il disait qu'en mangeant une certaine baie, ils devenaient énormes et pouvaient voler_!<wait more>
-    Bien sur, je lui ai dit qu'il était fou.<wait>
+    Bien sur, je lui ai dit qu'il était fou.<wait more>
   pt-br: |
     Nosso novo vizinho com certeza sabe muito sobre animais.<wait more>
     Ele me disse umas coisas estranhas sobre os Gatos Musk.<wait more>
@@ -4375,7 +4375,7 @@
     BUT PROVIDE GREAT <line>
     PROTECTION.<end>
   en: |
-    Have you heard of a cloak called the Frad Mantle? <wait more>
+    Have you heard of an item called the Frad Mantle? <wait more>
     From what I hear, it’s really light, yet has excellent protective power.<wait>
   fr: |
     Avez-vous entendu parler d'un objet appelé la Cape de Frad_?<wait more>
@@ -4575,12 +4575,12 @@
   # Villager
   indices: 172
   ja: フロームーバー トイウ ノリモノヲ<line>
-  translated: Do you know about the ‘FlowMover’?
+  translated: Do you know about the ‘HoverCraft’?
   us: |
     HAVE YOU HEARD OF<line>
     VEHICLE CALLED<wait more>
     THE HOVERCRAFT?<prompt>
-  en: Do you know what a FlowMover is?<end>
+  en: Do you know what a HoverCraft is?<end>
   fr: Savez-vous ce qu'est un AquaNaute_?<end>
   pt-br: Você sabe o que é um Aerobarco?<end>
   ca: Saps que és un aerolliscador?<end>
@@ -4622,7 +4622,7 @@
   ja: |
     アレハ ベンリダヨ. ミズノウエヲ<line>
     スイスイ イケルンダ.<wait>
-  translated: With a FlowMover, you can glide smoothly across the the top of the water. They can really come in handy!
+  translated: With a HoverCraft, you can glide smoothly across the the top of the water. They can really come in handy!
   us: |
     IT'S A GOOD THING<line>
     TO HAVE. IT MOVES<wait more>
@@ -4994,7 +4994,7 @@
     LAKE.<end>
   en: |
     Thank you. Perhaps I can help you, in return.<wait more>
-    I imagine you’re looking for Perseus’ shield? The one he used to slay Medusa?<wait more>
+    I imagine you’re looking for the Perseus Shield? The one he used to slay Medusa?<wait more>
     Local legend says it's on the island in the lake, buried under a cactus.<wait>
   fr: |
     Je vous remercie. En retour, je peux peut-être vous aider.<wait more>
@@ -5146,7 +5146,7 @@
   ca: Oh, interessant. Jo només vull anar a un lloc amb l'aire més net.<wait>
 
 - offsets: 5345
-  # Villager (no to request for PelorieMate)
+  # Villager (no to request for MonoMate)
   indices: 20C
   ja: ケチ.<wait>
   us: TIGHTWAND!<end>
@@ -5251,7 +5251,7 @@
     NOAH. YOU ARE <wait more>
     PREPARING TO FACE<line>
     LASSIC?<end>
-  en: Ah, Lutz, my pupil! I see you are finally fulfilling your destiny to defeat LaShiec.<wait>
+  en: Ah, Lutz, my pupil! I see you are finally fulfilling your destiny to kill LaShiec.<wait>
   fr: |
     Ah, Lutz, mon élève_!<wait more>
     Tu envisages de renverser Lassic, hein_?<wait>
@@ -5928,7 +5928,7 @@
   us: |
     IT'S FOOLISH TO<line>
     TRY TO GET LASSIC!<end>
-  en: Destroy LaShiec? That’s impossible. You can’t kill one who cannot die.<wait>
+  en: Assassinate LaShiec!? That’s impossible! You can’t kill one who is effectively immortal!<wait>
   fr: |
     Renverser Lassic_? C'est impossible.<wait more>
     Vous ne pouvez pas tuer un homme invincible.<wait>
@@ -5943,7 +5943,7 @@
   us: |
     LASSIC IS GONNA<line>
     SACRIFICE US! AGH!<end>
-  en: We’re all going to end up as sacrifices for LaShiec!<wait>
+  en: We’re all going to end up as tortured sacrifices for LaShiec!<wait>
   fr: Nous allons tous être sacrifiés au Seigneur Lassic_!<wait>
   pt-br: Nós todos vamos acabar como sacrifícios para LaShiec!<wait>
   ca: Acabarem tots essent sacrificats a Lashiec!<wait>
@@ -6375,7 +6375,7 @@
     YOU WILL SURELY<line>
     INCUR THE WRATH<wait more>
     OF THE HEAVENS!<end>
-  en: Then you will be destroyed!<wait>
+  en: Then you will all be slaughtered like the stupid animals you are!<wait>
   fr: Vous serez certainement détruits par le courroux céleste_!<wait>
   pt-br: Então você será destruído!<wait>
   ca: Aleshores sereu destruïts!<wait>
@@ -6473,8 +6473,8 @@
     ME, YOU'VE GAINED<wait more>
     NOTHING AT ALL!<end>
   en: |
-    I am merely LaShiec’s shadow warrior. You’ve gained nothing by defeating me.<wait more>
-    King LaShiec can't be killed. His power defies comprehension. You have come here to die.<wait>
+    I am merely LaShiec’s shadow warrior! You’ve gained NOTHING by killing me!<wait more>
+    King LaShiec is IMMORTAL and his power defies comprehension! You merely rush headlong towards your demise!<wait>
   fr: |
     Qui suis-je_?<wait more>
     Je suis l'Ombre de notre Seigneur Lassic.<wait more>
@@ -6504,9 +6504,9 @@
     YOU REALLY WISH TO<wait more>
     KILL AN OLD MAN?<prompt>
   en: |
-    Ah, it’s you. You've finally arrived. How accomplished you must feel.<wait more>
-    Those I serve have granted me immortality. My power no longer has limits. I am a god.<wait more>
-    And you have what? Weapons? Magic? Did you really hope to defeat me?<end>
+    Ah, it seems the worthless trash has finally arrived. How accomplished you must feel.<wait more>
+    Those I serve have granted me immortality. My power no longer has limits. I am greater than the Goddess!<wait more>
+    And you have what? Weapons? Magic? Did you really hope to kill me with such pathetic nonsense? DIE YOU INSIGIFICANT INSECTS!<end>
   fr: |
     Ah, c'est vous. J'ai songé que vous viendriez.<wait more>
     J'en sais beaucoup sur vous, mon enfant.<wait more>
@@ -6579,8 +6579,8 @@
     HEAVEN. HURRY TO<line>
     THE GOVERNOR!<end>
   en: |
-    You may have destroyed this body, but I can never truly die! I shall live again!<line><line><line><line><wait more>
-    Lord LaShiec has fallen. Nero’s dying wish was granted. A new era has begun in Algol.<wait more>
+    You may have killed this body, but I can never truly die! I shall live again!<line><line><line><line><wait more>
+    Lord LaShiec has been executed. Nero’s dying wish is granted and a new era begins for the entire Algol system.<wait more>
     The only thing left to do is return to the Governor-General in Paseo!<wait>
   fr: |
     Lassic est tombé_! La promesse faite à Néro est enfin accomplie.<wait more>
@@ -6664,12 +6664,12 @@
     AND BECOME THE <line>
     QUEEN OF Algol?<prompt>
   en: |
-    Oh, goodness. Please forgive me. My mind and body were controlled by an evil force.<wait more>
+    Oh, goodness. Please forgive me! My mind and body were controlled by an evil force.<wait more>
     You’ve done it! You’ve saved Algol. History shall repeat your names, always.<wait more>
     LaShiec is no more, his terrible fortress has been destroyed. Finally, peace can be restored.<wait more>
     And just in time, too. I fear if you'd taken any longer, we would have lost everything.<wait more>
     Alisa. There is something I must tell you. A secret I've kept, to spare your life.<wait more>
-    Alisa... your father was Aures Landeel, the king of Algol. The crown is yours by blood.<wait more>
+    Alisa... your father was Aures Landale, the king of Algol. The crown is yours by blood.<wait more>
     Algol is without a leader. Will you succeed your father, and take your place as our queen?<end>
   fr: |
     Oh, mon Dieu_!<wait more>
@@ -6690,7 +6690,7 @@
     LaShiec não existe mais, sua terrível fortaleza foi destruída. Finalmente, a paz pode ser restaurada.<wait more>
     E bem na hora também. Temo que se você demorasse mais, teríamos perdido tudo.<wait more>
     Alisa. Há algo que devo lhe contar. Um segredo que guardei, para poupar sua vida.<wait more>
-    Alisa... Seu pai era Aures Landeel, o rei de Algol. A coroa é sua pelo sangue.<wait more>
+    Alisa... Seu pai era Aures Landale, o rei de Algol. A coroa é sua pelo sangue.<wait more>
     Algol está sem um líder. Você sucederá seu pai, e tomará o seu lugar como nossa rainha?<end>
   ca: |
     Oh, Déu meu. Si us plau, perdoneu-me. El meu cos i la meva ànima eren controlades per una força maligna.<wait more>
@@ -6698,7 +6698,7 @@
     Lashiec ha mort, la seva fortalesa maleïda ha estat destruïda. Finalment, ha tornat la pau.<wait more>
     I just a temps. Temo que si haguéssim trigat més, ho hauríem perdut tot.<wait more>
     Alisa. Hi ha una cosa que has de saber. Un secret que he guardat per a protegir la teva vida.<wait more>
-    Alisa... el teu pare va ser Aures Landeel, el rei d'Algol. La corona et pertany per dret de sang.<wait more>
+    Alisa... el teu pare va ser Aures Landale, el rei d'Algol. La corona et pertany per dret de sang.<wait more>
     Algol ja no té lider. Succeiràs al teu pare, i agafaràs el seu lloc com a Reina?<end>
 
 - offsets: 5849,58ea
@@ -6715,12 +6715,12 @@
     ENTIRE SYSTEM. I<line>
     WILL ASSIST YOU IN<wait more>
     ALL WAYS POSSIBLE.<end>
-  en: Then you have my eternal loyalty. All hail the new Queen of Algol, Alisa Landeel!<wait>
+  en: Then you have my eternal loyalty. All hail the new Queen of Algol, Alisa Landale!<wait>
   fr: |
     Votre père était le meilleur Roi qu'Algol ait connu.<wait more>
     Et plus que cela, il était un homme bon. Il serait très fier de vous aujourd'hui.<wait>
-  pt-br: Então você tem minha eterna lealdade. Todos saúdem a nova Rainha de Algol, Alisa Landeel!<wait>
-  ca: Aleshores tens la meva lleialtat eterna. Visca la nova Reina d'Algol, Alisa Landeel!<wait>
+  pt-br: Então você tem minha eterna lealdade. Todos saúdem a nova Rainha de Algol, Alisa Landale!<wait>
+  ca: Aleshores tens la meva lleialtat eterna. Visca la nova Reina d'Algol, Alisa Landale!<wait>
 
 - offsets: 58ef
   # Governor-General (no to previous question)
@@ -6821,10 +6821,10 @@
   us: |
     <line>
          ODIN<wait>
-  en: "           Tylon,<delay>"
-  fr: "           Tylon,<delay>"
-  pt-br: "           Tylon,<delay>"
-  ca: "           Tylon,<delay>"
+  en: "           Tyron,<delay>"
+  fr: "           Tyron,<delay>"
+  pt-br: "           Tyron,<delay>"
+  ca: "           Tyron,<delay>"
 
 - offsets: 4816
   indices: 17C-2
@@ -7502,9 +7502,9 @@
   us: |
     ODIN CANNOT USE<line>
     MAGIC.<wait>
-  en: Tylon can’t use magic.<delay>
-  fr: Tylon ne peut pas utiliser la magie.<delay>
-  pt-br: Tylon não pode usar magia.<delay>
+  en: Tyron can’t use magic.<delay>
+  fr: Tyron ne peut pas utiliser la magie.<delay>
+  pt-br: Tyron não pode usar magia.<delay>
   ca: Tylo no pot emprar màgia. <delay>
 
 - offsets: 1b9e,1f1c
@@ -7860,7 +7860,7 @@
     THIS IS AN ARMORY.
     DO YOU WANT TO BUY<wait more>
     SOMETHING?<prompt>
-  en: Welcome to the armor shop. Can I help you?<end>
+  en: Welcome to the equipment armory! May I help you?<end>
   fr: Bienvenue à l'armurerie! Besoin d'armes pour votre quête_?<end>
   pt-br: Esta é uma loja de armas. Posso ajudá-lo?<end>
   ca: Benvinguts a l'armeria. En qué els puc ajudar?<end>
@@ -7869,7 +7869,7 @@
   indices: 0B6-2
   ja: ソウデスカ.マタキテクダサイ.<wait>
   us: WELL, COME AGAIN.<end>
-  en: Take care, come back and see us soon.<wait>
+  en: Take care! Please come back anytime!<wait>
   fr: Prenez soin de vous et à bientôt.<wait>
   pt-br: Cuide-se, e volte sempre.<wait>
   ca: Vagin amb compte, i a reveure.<wait>
@@ -7880,7 +7880,7 @@
   us: |
     WHICH DO YOU WANT <line>
     TO BUY?<prompt>
-  en: What can I get for you today?<end>
+  en: What may I get for you today?<end>
   fr: Que puis-je faire pour vous aujourd'hui_?<end>
   pt-br: O que posso fazer por você hoje?<end>
   ca: Que puc fer per vostès?<end>
@@ -7891,7 +7891,7 @@
   us: |
     THANK YOU.<line>
     ANYTHING ELSE?<prompt>
-  en: Enjoy. Can I get you anything else?<end>
+  en: Enjoy your purchase! May I get you anything else?<end>
   fr: Parfait, autre chose_?<end>
   pt-br: Aproveite. Posso ajudá-lo em algo mais?<end>
   ca: Perfecte. Alguna cosa més?<end>
@@ -7901,7 +7901,7 @@
   ja: |
     ソレイジョウ モテナイヨウデスネ.<line>
     マタキテクダサイ.<wait>
-  translated: It's looks like you can't carry anything more. Please come back later.
+  translated: It looks like you can't carry anything more. Please come back later.
   us: |
     YOU CANNOT CARRY<line>
     ANY MORE.<wait more>
@@ -7922,7 +7922,7 @@
     FIRST FOOD SHOP.<wait more>
     WOULD YOU LIKE TO<line>
     BUY SOMETHING?<prompt>
-  en: This is a pharmacy. Can I help you with something?<end>
+  en: Welcome to the pharmacy! May I help you?<end>
   fr: Bienvenue à la pharmacie. Besoin d'aide_?<end>
   pt-br: Esta é uma farmácia. Posso ajudá-lo?<end>
   ca: Benvingut a la farmàcia. En què els puc ajudar?<end>
@@ -7936,7 +7936,7 @@
     THIS IS A<line>
     SECOND-HAND SHOP.<wait more>
     CAN I HELP YOU?<prompt>
-  en: Welcome to the tool shop. May I help you?<end>
+  en: Welcome to the utility goods shop! How may I help?<end>
   fr: Bienvenue à la quincaillerie. Que voulez-vous faire_?<end>
   pt-br: Esta é uma loja de ferramentas. Posso ajudá-lo?<end>
   ca: Benvinguts a la ferreteria. En qué els puc ajudar?<end>
@@ -7947,7 +7947,7 @@
   us: |
     WHAT WOULD YOU <line>
     LIKE TO SELL?<prompt>
-  en: What do you have?<end>
+  en: What would you like to sell?<end>
   fr: Voyons voir...<end>
   pt-br: O que você tem?<end>
   ca: Que teniu?<end>
@@ -7973,7 +7973,7 @@
   us: |
     THANK YOU.<line>
     ANYTHING ELSE?<prompt>
-  en: Wonderful! Have anything else for me?<end>
+  en: Wonderful! Anything else to sell?<end>
   fr: Magnifique_! Autre chose_?<end>
   pt-br: Maravilha! Tem mais alguma coisa para mim?<end>
   ca: Meravellós! Teniu quelcom més per mí?<end>
@@ -7991,7 +7991,7 @@
   us: |
     THIS IS A HOSPITAL
     DO YOU NEED HELP?<prompt>
-  en: This is a hospital. Do you require medical care?<end>
+  en: Welcome to the hospital! Do you require medical care?<end>
   fr: Bienvenue à l'hôpital. Avez-vous besoin de soins_?<end>
   pt-br: Este é um hospital. Você precisa de cuidados médicos?<end>
   ca: Benvinguts a l'hospital. Necessiteu atenció mèdica?<end>
@@ -8128,7 +8128,7 @@
   us: |
     I WILL NOW CAST<line>
     A SPELL.<wait>
-  en: Concentrate on the departed as I recite an incantation.<delay>
+  en: Concentrate on the departed as I recite a spiritual incantation.<delay>
   fr: Recueillez-vous pendant que je récite une incantation.<delay>
   pt-br: Então vamos lá. Se concentre nos que partiram.<delay>
   ca: Penseu en els que han partit mentre reso una pregària. <delay>
@@ -8185,7 +8185,7 @@
   us: |
     WHO IS TO BE<line>
     RESURRECTED?<prompt>
-  en: Who shall be returned?<end>
+  en: Who shall be resurrected?<end>
   fr: Quelle âme voulez-vous ramener_?<end>
   pt-br: Quem deve ser revivido?<end>
   ca: Qui ha de ser retornat?<end>
@@ -8194,7 +8194,7 @@
   indices: 0E0-2
   ja: ホカノカタハ イカガデスカ.<end>
   us: ANYONE ELSE?<prompt>
-  en: Is there anyone else?<end>
+  en: Does anyone else require services?<end>
   fr: Encore une ame_?<end>
   pt-br: Há mais alguém?<end>
   ca: Algú més?<end>
@@ -8207,7 +8207,7 @@
   us: |
     THAT REQUIRES<line>
     <number> MESETAS. O.K.?<prompt>
-  en: Our suggested donation is <number><internal hint 02> meseta<s>.<end>
+  en: Our 'suggested' donation is <number><internal hint 02> meseta<s>.<end>
   fr: Nous suggérons un don de <number><internal hint 02> meseta<s>.<end>
   pt-br: Nossa doação sugerida é de <number><internal hint 02> meseta<s>.<end>
   ca: La donació sugerida és <number><internal hint 02> meseta<s>.<end>
@@ -8244,7 +8244,7 @@
   us: |
     MAY THE GODS<line>
     WATCH OVER YOU!<end>
-  en: May your future hold blessings from God.<wait>
+  en: May your future hold blessings from the Goddess.<wait>
   fr: Puisse Dieu bénir votre avenir.<wait>
   pt-br: Que o seu futuro seja cheio das bençãos de Deus.<wait>
   ca: Que el teu futur porti benediccions de Déu.<wait>
@@ -8254,8 +8254,8 @@
   ja: <player>ハ イキテイマスヨ.<end>
   us: <player> IS ALIVE.<prompt>
   en: |
-    <player>? You don’t look dead to me.<wait more>
-    If you need medical care, I advise finding the nearest hospital.<end>
+    <player>? You look quite lively to me.<wait more>
+    If you require medical care, please go to the nearest hospital.<end>
   fr: |
     Cette personne ne m'a pas l'air morte_!<wait more>
     Si vous avez besoin de soins, cherchez l'hôpital le plus proche.<end>
@@ -8361,7 +8361,7 @@
   us: |
     DO NOT OFFEND<line>
     LASSIC.<end>
-  en: ‘You should not go against Lord LaShiec.’<wait>
+  en: ‘You should not engage in conflict against Lord LaShiec.’<wait>
   fr: Vous ne devriez pas tenir tête au Seigneur Lassic.<wait>
   pt-br: ‘Você não deve ir contra LaShiec.’<wait>
   ca: ‘No heu d'anar en contra Lashiec.’<wait>
@@ -8463,7 +8463,7 @@
     AS "ICE DIGGER"<wait more>
     LIVES UP TO ITS<line>
     NAME.<end>
-  en: ‘IceDeckers can cut through ice!’<wait>
+  en: ‘Ice Drillers can tear through ice!’<wait>
   fr: Les ForaGlaces permettent de briser la glace.<wait>
   pt-br: ‘Cavadores de Gelo podem cortar sobre o gelo!’<wait>
   ca: ‘Els Trencaglaços poden travessar el gel!’<wait>
@@ -8541,7 +8541,7 @@
   ja: |
     ミラクルキーハ マホウノドアデモ<line>
     アケルコトガ デキルゾ.<wait>
-  en: ‘The Miracle Key can open magic doors!’<wait>
+  en: ‘The Master Key can open magic doors!’<wait>
   us: |
     THE MIRACLE KEY<line>
     CAN OPEN DOORS<wait more>
@@ -8861,7 +8861,7 @@
     GAME <number> HAS BEEN<line>
     DELETED.<end>
   en: Deleting game from slot <number>...<delay>
-  #<delay> is nicer than<wait> here - Maxim
+  #<delay> is nicer than <wait> here - Maxim
   fr: Suppression de la sauvegarde, emplacement <number>.<delay>
   pt-br: |
     Deletando o jogo da posição <line>
@@ -8931,3 +8931,4 @@
     Aleshora Alisa sent la veu d'en Nero, d'un lloc llunyà.<wait more>
     ‘No et rendeixis, Alisa. Heu arribat molt lluny.’<wait more>
     El seu esperit reviu.<wait>
+    
