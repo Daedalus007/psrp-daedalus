@@ -16,7 +16,7 @@ banksize $4000
 banks 32
 .endro
 
-.define ORIGINAL_ROM "PS1-J.SMS"
+.define ORIGINAL_ROM "PSJAPA.SMS"
 
 .background ORIGINAL_ROM
 
@@ -1673,22 +1673,22 @@ Items:
   String "<A> Ceramic Shield"               ; CRC. SLD  Ceramic Shield      seramikkunotate     セラミックノタテ
   String "<An> Animal Glove"                ; GLOVE     Glove               animarugurabu       アニマルグラブ
   String "<A> Laser Barrier"                ; LASR.SLD  Laser Shield        rēzābaria           レーザーバリア
-  String "<The> Shield of Perseus"          ; MIRR.SLD  Mirror Shield       peruseusunotate     ペルセウスノタテ
+  String "<The> Perseus Shield"             ; MIRR.SLD  Mirror Shield       peruseusunotate     ペルセウスノタテ
   String "<A> Laconian Shield"              ; LAC. SLD  Laconian Shield     rakoniashīrudo      ラコニアシールド
 ; vehicles: 21-23
   String "<The> LandMaster"                 ; LANDROVR  Land Rover          randomasutā         ランドマスター
-  String "<The> FlowMover"                  ; HOVRCRFT  Hovercraft          furōmūbā            フロームーバー
-  String "<The> IceDecker"                  ; ICE DIGR  Ice Digger          aisudekkā           アイスデッカー
+  String "<The> Hover Craft"                ; HOVRCRFT  Hovercraft          furōmūbā            フロームーバー
+  String "<The> Ice Driller"                ; ICE DIGR  Ice Digger          aisudekkā           アイスデッカー
 ; items: 24+
-  String "<A> PelorieMate"                  ; COLA      Cola                perorīmeito         ペロリーメイト
-  String "<A> Ruoginin"                     ; BURGER    Burger              ruoginin            ルオギニン
+  String "<A> MonoMate"                     ; COLA      Cola                perorīmeito         ペロリーメイト
+  String "<A> DiMate"                       ; BURGER    Burger              ruoginin            ルオギニン
   String "<The> Soothe Flute"               ; FLUTE     Flute               sūzufurūto          スーズフルート
-  String "<A> Searchlight"                  ; FLASH     Flash               sāchiraito          サーチライト
-  String "<An> Escape Cloth"                ; ESCAPER   Escaper             esukēpukurosu       エスケープクロス
-  String "<A> TranCarpet"                   ; TRANSER   Transer             torankāpetto        トランカーペット
+  String "<A> Flashlight"                   ; FLASH     Flash               sāchiraito          サーチライト
+  String "<A> Smoke Bomb"                   ; ESCAPER   Escaper             esukēpukurosu       エスケープクロス
+  String "<A> Transporter"                  ; TRANSER   Transer             torankāpetto        トランカーペット
   String "<A> Magic Hat"                    ; MAGC HAT  Magic Hat           majikkuhatto        マジックハット
   String "<An> Alsuline"                    ; ALSULIN   Alsulin             arushurin           アルシュリン
-  String "<A> Polymeteral"                  ; POLYMTRL  Polymeteral         porimeterāru        ポリメテラール
+  String "<A> Polymetryl"                   ; POLYMTRL  Polymeteral         porimeterāru        ポリメテラール
   String "<A> Dungeon Key"                  ; DUGN KEY  Dungeon Key         danjonkī            ダンジョンキー
   String "<A> Telepathy Ball"               ; SPHERE    Sphere              terepashībōru       テレパシーボール
   String "<The> Eclipse Torch"              ; TORCH     Torch               ikuripusutōchi      イクリプストーチ
@@ -1706,14 +1706,14 @@ Items:
   String "<A> GasClear"                     ; GAS. SLD  Gas Shield          gasukuria           ガスクリア
   String "Damoa's Crystal"                  ; CRYSTAL   Crystal             damoakurisutaru     ダモアクリスタル
   String "<A> Master System"                ; M SYSTEM  Master System       masutāshisutemu     マスターシステム
-  String "<The> Miracle Key"                ; MRCL KEY  Miracle Key         mirakurukī          ミラクルキー
+  String "<The> Master Key"                 ; MRCL KEY  Miracle Key         mirakurukī          ミラクルキー
   String "Zillion"                          ; ZILLION   Zillion             jirion              ジリオン
   String "<A> Secret Thing"                 ; SECRET    Secret              himitsunomono       ヒミツノモノ
 
 Names:
   String "Alisa"                            ; ALIS      Alis                arisa               アリサ
   String "Myau"                             ; MYAU      Myau                myau                ミャウ
-  String "Tylon"                            ; ODIN      Odin                tairon              タイロン
+  String "Tyron"                            ; ODIN      Odin                tairon              タイロン
   String "Lutz"                             ; LUTZ      Lutz                rutsu               ルツ
 
 Enemies:
@@ -1871,7 +1871,7 @@ Names:
 ; Persos
   String "<d'>Alisa"
   String "<de> Myau"
-  String "<de> Tylon"
+  String "<de> Tyron"
   String "<de> Lutz"
 Enemies:
 ; Monstres
@@ -1997,8 +1997,8 @@ Items:
   String   "<o> Aerobarco"
   String   "<o> Escavador de Gelo"
 ; objetos       123456789012345678
-  String "<uma> PelorieMate"
-  String "<uma> Ruoginina"
+  String "<uma> MonoMate"
+  String "<uma> DiMate"
   String   "<a> Flauta Calmante"
   String "<uma> Lanterna"
   String "<uma> Capa de Fuga"
@@ -2030,7 +2030,7 @@ Names:
 ; Personagens
   String "Alisa"
   String "Myau"
-  String "Tylon"
+  String "Tyron"
   String "Lutz"
 Enemies:
 ; Monstros
@@ -2156,15 +2156,15 @@ Items:
   String  "<l'>AeroLliscador"
   String  "<el> Trencaglaç"
 ; objetos       123456789012345678
-  String  "<un> PelorieMate"
-  String  "<un> Ruoginin"
+  String  "<un> MonoMate"
+  String  "<un> DiMate"
   String  "<la> Flauta Calmant"
   String "<una> Llanterna"
   String "<una> Capa de Fuga"
   String "<una> Telecatifa"
   String  "<un> Barret Màgic"
   String "<una> Alsulina"
-  String  "<un> Polymeteral"
+  String  "<un> Polymetryl"
   String "<una> Clau de Masmorra"
   String "<una> Bola Telepàtica"
   String  "<la> Torcha d'Eclipsi"
@@ -2189,7 +2189,7 @@ Names:
 ; Personagens
   String "Alisa"
   String "Myau"
-  String "Tylon"
+  String "Tyron"
   String "Lutz"
 Enemies:
 ; Monstres
