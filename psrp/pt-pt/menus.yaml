@@ -1,0 +1,214 @@
+- name: OpeningCinema
+  pt-pt: |
+    ┌────────────────────╖
+    │AW 342, Primavera   ║
+    │--------------------║
+    │Distrito residencial║
+    │ de Camineet no     ║
+    │ planeta Palma.     ║
+    ╘════════════════════╝
+
+- name: WorldMenu
+  pt-pt: |
+    ┌────────╖
+    │Estado  ║
+    │Magia   ║
+    │Itens   ║
+    │Procurar║
+    │Guardar ║
+    │Opções  ║
+    ╘════════╝
+
+- name: ChoiceMenu
+  pt-pt: |
+    ┌───╖
+    │Sim║
+    │Não║
+    ╘═══╝
+
+- name: BattleMenu
+  pt-pt: |
+    ┌──────╖
+    │Atacar║
+    │Magia ║
+    │Itens ║
+    │Falar ║
+    │Fugir ║
+    ╘══════╝
+
+- name: ToolShopMenu
+  pt-pt: |
+    ┌───────╖
+    │Comprar║
+    │Vender ║
+    ╘═══════╝
+
+- name: ItemActionMenu
+  pt-pt: |
+    ┌─────────╖
+    │Usar     ║
+    │Equipar  ║
+    │Descartar║
+    ╘═════════╝
+
+- name: BattleSpellsAlisa
+  pt-pt: |
+    ┌────────────────╖
+    │Cura            ║
+    │Fuga Rápida     ║
+    │Traduzir        ║
+    │Fogo            ║
+    │Amarrar         ║
+# Next five must follow...
+
+- name: BattleSpellsMyau
+  pt-pt: |
+    ┌────────────────╖
+    │Super Cura      ║
+    │Medo            ║
+    │Muralha         ║
+    │Aumento de Poder║
+
+- name: BattleSpellsLutz
+  pt-pt: |
+    ┌────────────────╖
+    │Fogo            ║
+    │Telepatia       ║
+    │Vento           ║
+    │Barreira Mágica ║
+    │Raio            ║
+
+- name: OverworldSpellsAlisa
+  pt-pt: |
+    ┌────────────────╖
+    │Cura            ║
+    │Teletransporte  ║
+
+- name: OverworldSpellsMyau
+  pt-pt: |
+    ┌────────────────╖
+    │Super Cura      ║
+    │Desarmar        ║
+    │Escapar         ║
+
+- name: OverworldSpellsLutz
+  pt-pt: |
+    ┌────────────────╖
+    │Super Cura      ║
+    │Escapar         ║
+    │Telepatia       ║
+    │Abrir           ║
+    │Reviver         ║
+
+- name: SpellMenuBottom
+  # referenced in assembly code
+  pt-pt: ╘════════════════╝
+
+- name: StatsMenuDimensions
+  pt-pt: |
+    ┌─────────────────╖
+    │Nível          99║
+    │Experiência 65535║
+    │Ataque        255║
+    │Defesa        255║
+    │PV máximo     255║
+    │PM máximo     255║
+    │Mesetas     65535║
+    ╘═════════════════╝
+
+- name: EquimentMenuDimensions
+  pt-pt: |
+    ┌────────────────────╖
+    │                    ║
+    │                    ║
+    │                    ║
+    ╘════════════════════╝
+
+- name: InventoryMenuDimensions
+  pt-pt: |
+    ┌────────────────────╖
+    │Mesetas        65535║
+    │Próximo             ║
+    │Item 1              ║
+    │Item 2              ║
+    │Item 3              ║
+    │Item 4              ║
+    │Item 5              ║
+    │Item 6              ║
+    │Item 7              ║
+    │Item 8              ║
+    ╘════════════════════╝
+
+- name: TopBorder10
+  # inventory, currently equipped items # Not shop MST any more
+  pt-pt: ┌────────────────────╖
+
+- name: BottomBorder10
+  # inventory, currently equipped items
+  pt-pt: ╘════════════════════╝
+
+- name: InventoryNextMenu
+  pt-pt: │Próximo             ║
+
+- name: HapsbyTravelMenu
+  pt-pt: |
+    ┌──────╖
+    │Gótica║
+    │Uzo   ║
+    │Skray ║
+    ╘══════╝
+
+- name: SoundTestMenuTop
+  pt-pt: ┌───────────────╖
+
+- name: SoundTestMenuChipPSG
+  pt-pt: │Chip    SN76489║
+
+- name: SoundTestMenuChipYM2413
+  pt-pt: │Chip     YM2413║
+
+- name: SoundTestMenu
+  pt-pt: |
+    │---------------║
+    │Tela de Título ║
+    │Introdução     ║
+    │Cidade         ║
+    │Calabouço      ║
+    │Loja           ║
+    │Igreja         ║
+    │Palma          ║
+    │Batalha        ║
+    │História       ║
+    │Vila           ║
+    │Veículo        ║
+    │Motávia        ║
+    │Dezóris        ║
+    │Torre          ║
+    │Calabouço Final║
+    │LaShiec        ║
+    │Força Sombria  ║
+    │Final          ║
+    │Fim do jogo    ║
+    ╘═══════════════╝
+
+- name: OptionsMenu
+  # Width should be such that the closest left-right items have a 2 space gap.
+  # Sometimes the "Alisa's hair" item is the closest, check text lengths elsewhere.
+  pt-pt: |
+    ┌─────────────────────────╖
+    │Velocidade da Passada  x ║
+    │Experiência            x ║
+    │Mesetas                x ║
+    │Batalhas                 ║
+    │Cabelo da Alisa          ║
+    │Fonte                    ║
+    │Transições               ║
+    │Velocidade do texto    x ║
+    ╘═════════════════════════╝
+
+- name: ContinueMenu
+  pt-pt: |
+    ┌────────╖
+    │Carregar║
+    │Eliminar║
+    ╘════════╝
