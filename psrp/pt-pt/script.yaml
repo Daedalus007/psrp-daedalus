@@ -110,8 +110,8 @@
 - offsets: 4b94
   # Camineet resident - man
   pt-pt: |
-Não podes mais entrar no Espaçoporto sem um tal de Passe.<wait more>
-Tentei inscrever-me para conseguir um, mas disseram-me que pode demorar semanas, como é que vou voltar para casa?<wait>
+    Não podes mais entrar no Espaçoporto sem um tal de Passe.<wait more>
+    Tentei inscrever-me para conseguir um, mas disseram-me que pode demorar semanas, como é que vou voltar para casa?<wait>
 
 - offsets: 4b9a
   # Camineet resident - man
@@ -1072,7 +1072,7 @@ Tentei inscrever-me para conseguir um, mas disseram-me que pode demorar semanas,
   # Townsperson
   pt-pt: |
     Derrotar LaShiec, não é? Vais precisar de uma espada, um machado, um escudo e uma armadura feitos de Lacónia.<wait more>
-    A Lacónia é o material mais poderoso em Algol; se eu fosse a ti, não usaria nada menos poderoso.<wait more>
+    A Lacónia é o material mais poderoso em Algol. Se eu fosse a ti, não usaria nada menos poderoso.<wait more>
     Estaremos a rezar pela tua segurança.<wait>
 
 - offsets: 5250
@@ -1088,7 +1088,7 @@ Tentei inscrever-me para conseguir um, mas disseram-me que pode demorar semanas,
 
 - offsets: 525c
   # Townsperson
-  pt-pt: Nem todas as montanhas de gelo são tão resistentes quanto parecem; algumas partes quebram-se facilmente.<wait>
+  pt-pt: Nem todas as montanhas de gelo são tão resistentes quanto parecem. Algumas partes quebram-se facilmente.<wait>
 
 - offsets: 5262
   # Townsperson
@@ -1233,7 +1233,7 @@ Tentei inscrever-me para conseguir um, mas disseram-me que pode demorar semanas,
 - offsets: 51ef
   # Person inside cave
   pt-pt: |
-    Vim a esta cidade para comprar uma Máscara de Gás; preciso dela para me proteger dos gases venenosos.<wait more>
+    Vim a esta cidade para comprar uma Máscara de Gás. Preciso dela para me proteger dos gases venenosos.<wait more>
     Deve haver uma loja por aqui que as venda, mas não consigo encontrar de jeito nenhum!<wait>
 
 - offsets: 51f5
@@ -1515,7 +1515,7 @@ Tentei inscrever-me para conseguir um, mas disseram-me que pode demorar semanas,
   pt-pt: |
     Eu sou Otegami Chie-chan, da Sega! Obrigado por todas as tuas cartas.<wait more>
     Por favor, diz-nos o que achas deste jogo. Estamos ansiosos por saber.<wait more>
-    Aqui vai uma dica — vai até o ponto mais alto de Palma e levanta o Aeroprisma para o céu!<wait>
+    Aqui vai uma dica - vai até o ponto mais alto de Palma e levanta o Aeroprisma para o céu!<wait>
 
 
 # *************************
@@ -1547,7 +1547,7 @@ Tentei inscrever-me para conseguir um, mas disseram-me que pode demorar semanas,
 
 - offsets: 55f5
   # Prisoner
-  pt-pt: Vieste ajudar-me a escapar? Para quê?
+  pt-pt: Vieste ajudar-me a escapar? Para quê?<wait>
 
 - offsets: 55fb
   # Prisoner
